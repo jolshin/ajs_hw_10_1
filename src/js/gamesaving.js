@@ -15,8 +15,6 @@ export default class GameSavingLoader {
                         resolve(value);
                     }, 500);
                 });
-            }).catch((error) => {
-                console.log(`error ${error}`)
             }); 
     }
 }
